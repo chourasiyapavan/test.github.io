@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TimeTable</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="wrapped">
+  <div class="container-fluid header">
+  <div class="row">
+    <div class="col-md-3"><img src="images/logo.png"></div>
+    <div class="col-md-9">
+      <ul class="info">
+       
+        <li><span><i class="fa fa-phone" aria-hidden="true" ></i></span><a href="#">0755-232334</a></li>
+        <li><span><i class="fa fa-envelope-o" aria-hidden="true"></i></span><a href="http://ssstechies.com/">SSS TECHNOLOGIES</a></li>
+        <li><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>SSS Technologies,Kolar Road, Bhopal,MP 462042</li>
+        <li><span><i class="fa fa-globe" aria-hidden="true"></i></span>English</li>
+         <li><span><i class="fa fa-globe" aria-hidden="true"></i></span><a href="#">client/Register</a></li>
+      </ul>
+
+<div class="social">
+    <ul class="info1"><li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li></ul>
+  </div>
+
+  <div class="menu">
+    <ul class="info"> <li class="dropdown dropbtn"">Home <span class="dropdown-toggle"></span> 
+  <div class="dropdown-content">
+    <a href="#">Home Page Layouts</a>
+    <a href="#">Footer page Layouts</a>
+    <a href="#">Staff Mamber</a>
+    <a href="#">Services</a>
+    <a href="#">Classes</a>
+    <a href="#">Members</a>
+  </div>
+</li>
+        <li class="dropdown dropbtn"">Pages <span class="dropdown-toggle"></span> 
+  <div class="dropdown-content">
+    <a href="#">About</a>
+    <a href="#">Staff</a>
+    <a href="#">Staff Mamber</a>
+    <a href="#">Services</a>
+    <a href="#">Classes</a>
+    <a href="#">Members</a>
+  </div>
+</li>
+       <li class="dropdown dropbtn"">Elements <span class="dropdown-toggle"></span> 
+  <div class="dropdown-content">
+    <a href="#">Elements</a>
+    <a href="#">Typography</a>
+    <a href="#">Columns</a>
+  </div>
+</li>
+      <li class="dropdown dropbtn"">Gallery <span class="dropdown-toggle"></span> 
+
+  
+  <div class="dropdown-content">
+    <a href="#">Grid Gallery</a>
+    <a href="#">Masonary Gallery</a>
+  </div>
+</li>
+      <li class="dropdown dropbtn"">Events <span class="dropdown-toggle"></span> 
+
+  
+  <div class="dropdown-content">
+    <a href="#">Upcoming Events</a>
+    <a href="#">Events</a>
+  </div>
+</li>
+      <li class="dropdown dropbtn"">News <span class="dropdown-toggle"></span> 
+
+  
+  <div class="dropdown-content">
+    <a href="#">Blog with Big Images</a>
+    <a href="#">Blog with Small Images</a>
+  </div>
+</li>
+      <li class="dropdown dropbtn"">Shop <span class="dropdown-toggle"></span> 
+
+  
+  <div class="dropdown-content">
+    <a href="#">Shop Category</a>
+    <a href="#">Product Pages</a>
+  </div>
+</li>
+      <li><div style="width:30px;height: 30px;border-radius:50%;border:1px solid black;"><a href=""><div style="padding-top:1px;padding-left:5px; "><i class="fa fa-search" aria-hidden="true"></i></div></a></div></li>
+      <li><div style="border-radius: 80px;box-shadow:0px 0px 5px rgba(0,0,0,0.5);background-color: #a5c33b;width:100px ;height:30px;padding-top: 2px; color: 
+#f9fbf3; "><center>Inquire
+      </center></div></li>
+  </ul>
+  </div>
+
+    </div>
+
+  </div>
+  
+ </div>
+ <!-- classs Timetable-->
+ <div class="classtime"><h1>Classes Timetable</h1>
+  <h6><a href="#">Home</a>  <span> / Classes TimeTable</span></h6></div>
+<div class="yoga">
+  <div class="container">
+  <!-- Nav tabs -->
+  <ul class="nav" role="tablist">
+    <li class="nav-item">
+      <div class="nav-link active" data-toggle="tab" href="#home"> All Events</div>
+    </li>
+    <li class="nav-item">
+      <div class="nav-link" data-toggle="tab" href="#menu1">Yoga</div>
+    </li>
+    <li class="nav-item">
+      <div class="nav-link" data-toggle="tab" href="#menu2">Art</div>
+    </li>
+    <li class="nav-item">
+      <div class="nav-link" data-toggle="tab" href="#menu3">Dance</div>
+    </li>
+    <li class="nav-item">
+      <div class="nav-link" data-toggle="tab" href="#menu4" >Literacy</div>
+    </li>
+  </ul>
+
+  <!-- time table -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>MONDAY</th>
+          <th>TUESDAY</th>
+          <th>WEDNESDAY</th>
+          <th>THURSDAY</th>
+          <th>FRIDAY</th>
+          <th>SATURDAY</th>
+          <th>SUNDAY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      </tr>
+       <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+         <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+      
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+
+
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>MONDAY</th>
+          <th>TUESDAY</th>
+          <th>WEDNESDAY</th>
+          <th>THURSDAY</th>
+          <th>FRIDAY</th>
+          <th>SATURDAY</th>
+          <th>SUNDAY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td> </td>
+        <td> </td><td> </td><td> </td><td> </td><td> </td>
+    
+      </tr>
+       <tr>
+      <td> </td><td> </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+       <td> </td><td> </td><td> </td><td></td>
+      
+        </tr>
+         <tr>
+         <td> </td><td> </td><td> </td><td> </td><td> </td><td></td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+      
+    
+    </div>
+     <div id="menu2" class="container tab-pane fade"><br>
+
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>MONDAY</th>
+          <th>TUESDAY</th>
+          <th>WEDNESDAY</th>
+          <th>THURSDAY</th>
+          <th>FRIDAY</th>
+          <th>SATURDAY</th>
+          <th>SUNDAY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      </tr>
+       <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+         <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+      
+    </div>
+     <div id="menu3" class="container tab-pane fade"><br>
+
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>MONDAY</th>
+          <th>TUESDAY</th>
+          <th>WEDNESDAY</th>
+          <th>THURSDAY</th>
+          <th>FRIDAY</th>
+          <th>SATURDAY</th>
+          <th>SUNDAY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      </tr>
+       <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+         <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+      
+    </div>
+     <div id="menu4" class="container tab-pane fade"><br>
+
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>MONDAY</th>
+          <th>TUESDAY</th>
+          <th>WEDNESDAY</th>
+          <th>THURSDAY</th>
+          <th>FRIDAY</th>
+          <th>SATURDAY</th>
+          <th>SUNDAY</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      </tr>
+       <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+         <tr>
+      <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Art Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Literacy Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Dance Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Piano Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+        <td>
+        <h6>Yoga Class</h6>
+      <p id="am">9:00 AM - 5:00 PM</p>
+        <p><span>Teacher:</span> Ivana Wong</p>
+        <p><span>Age:</span> 3-4 y/o</p>
+        <p><span>Class Size:</span> 10</p>
+      </td>
+      
+      
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+<section>
+  <div class="slidelike"><h2>Classes You Might Like</h2>
+  <div id="demo3" class="carousel slide " data-ride="carousel">
+  <ul class="carousel-indicators" style="position: absolute;bottom:-50px;">
+    <li data-target="#demo3" data-slide-to="0" class="active"></li>
+    <li data-target="#demo3" data-slide-to="1"></li>
+    <li data-target="#demo3" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active"> 
+      <div class="container">
+      <div class="row row1">
+        <div class="col-md-3" id="col">
+          <div class="sed">
+            <img src="images/img1.jpg" width="330px">
+            <h5>Yoga Class</h5>
+            <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit. </p>
+            <div style="background: url(images/separator_stripe.png) repeat-x bottom;height: 5px;margin:0px 15px"></div>
+            <div class="row row2">
+              <div class="col-md-3">
+                <p>Age<br>3/4y/o</p>
+              </div>
+              <div class="col-md-3">
+                <p>Class<br>10</p>
+              </div>
+              <div class="col-md-3">
+                <h3><sup>$</sup><span>24<sub>p/h</sub></span></h3>
+              </div>
+            </div>
+        </div></div>
+     <div class="col-md-3" id="col">
+          <div class="sed">
+            <img src="images/img3.jpg" width="330px">
+            <h5>Yoga Class</h5>
+            <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit. </p>
+            <div style="background: url(images/separator_stripe.png) repeat-x bottom;height: 5px;margin:0px 15px"></div>
+            <div class="row row2">
+              <div class="col-md-3">
+                <p>Age<br>3/4y/o</p>
+              </div>
+              <div class="col-md-3">
+                <p>Class<br>10</p>
+              </div>
+              <div class="col-md-3">
+                <h3><sup>$</sup><span>24<sub>p/h</sub></span></h3>
+              </div>
+            </div>
+        </div></div>
+      <div class="col-md-3" id="col">
+          <div class="sed">
+            <img src="images/img2.jpg" width="330px">
+            <h5>Yoga Class</h5>
+            <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit. </p>
+            <div style="background: url(images/separator_stripe.png) repeat-x bottom;height: 5px;margin:0px 15px"></div>
+            <div class="row row2">
+              <div class="col-md-3">
+                <p>Age<br>3/4y/o</p>
+              </div>
+              <div class="col-md-3">
+                <p>Class<br>10</p>
+              </div>
+              <div class="col-md-3">
+                <h3><sup>$</sup><span>24<sub>p/h</sub></span></h3>
+              </div>
+            </div>
+        </div></div>
+      </div> 
+      </div>  
+    </div>
+  <div class="carousel-item ">
+    <div class="container">
+      <div class="row row1">
+        <div class="col-md-3" id="col">
+          <div class="sed">
+            <img src="images/img1.jpg" width="330px">
+            <h5>Yoga Class</h5>
+            <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit. </p>
+            <div style="background: url(images/separator_stripe.png) repeat-x bottom;height: 5px;margin:0px 15px"></div>
+            <div class="row row2">
+              <div class="col-md-3">
+                <p>Age<br>3/4y/o</p>
+              </div>
+              <div class="col-md-3">
+                <p>Class<br>10</p>
+              </div>
+              <div class="col-md-3">
+                <h3><sup>$</sup><span>24<sub>p/h</sub></span></h3>
+              </div>
+            </div>
+        </div></div>
+     <div class="col-md-3" id="col">
+          <div class="sed">
+            <img src="images/img2.jpg" width="330px">
+            <h5>Yoga Class</h5>
+            <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit. </p>
+            <div style="background: url(images/separator_stripe.png) repeat-x bottom;height: 5px;margin:0px 15px"></div>
+            <div class="row row2">
+              <div class="col-md-3">
+                <p>Age<br>3/4y/o</p>
+              </div>
+              <div class="col-md-3">
+                <p>Class<br>10</p>
+              </div>
+              <div class="col-md-3">
+                <h3><sup>$</sup><span>24<sub>p/h</sub></span></h3>
+              </div>
+            </div>
+        </div></div>
+      <div class="col-md-3" id="col">
+          <div class="sed">
+            <img src="images/img3.jpg" width="330px">
+            <h5>Yoga Class</h5>
+            <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit. </p>
+            <div style="background: url(images/separator_stripe.png) repeat-x bottom;height: 5px;margin:0px 15px"></div>
+            <div class="row row2">
+              <div class="col-md-3">
+                <p>Age<br>3/4y/o</p>
+              </div>
+              <div class="col-md-3">
+                <p>Class<br>10</p>
+              </div>
+              <div class="col-md-3">
+                <h3><sup>$</sup><span>24<sub>p/h</sub></span></h3>
+              </div>
+            </div>
+        </div></div>
+      </div>  
+      </div> 
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#demo3" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo3" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+ </div></section>
+<footer><div id="footer">
+  <div class="row" style="padding-top: 60px;margin-left:50px;">
+    <div class="col-md-3">
+      
+        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span><a href="#" id="a1">Location</a>
+        <p id="a2">9870 St Vincent Place,<br> 
+Glasgow, DC 45 Fr 45</p>
+     
+    </div>
+     <div class="col-md-3">
+    
+        <span><i class="fa fa-clock-o" aria-hidden="true"></i></span><a href="#" id="a1">Opening Hours</a> 
+        <p>Monday – Friday <br>
+8:00 AM – 5:00 PM</p>
+      
+    </div>
+    <div class="col-md-3">
+     
+        <span><i class="fa fa-mobile" aria-hidden="true"></i></span><a href="#" id="a1">Contact Us</a>
+        <p>+1 800 559 6580 <br>
+        <a href="http://ssstechies.com/">SSS TECHNOLOGIES</a></p>
+
+
+
+    </div>
+    <div class="col-md-3">
+      
+     <span><i class="fa fa-share-alt" aria-hidden="true"></i></span><a href="#" id="a1">Stay Connected</a> 
+     <ul class="info4"><li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li></ul>
+    </div>
+
+
+  </div>
+   <div style="background: url(images/separator_stripe.png) repeat-x bottom;height: 5px;margin-top: 50px;"></div>
+<div class="innerfooter"><center><ul><li><a href="#"> About </a></li>
+<li><a href="#"> PHILOSOPHY </a></li>
+<li><a href="#"> OUR STAFF </a></li>
+<li><a href="#"> FAQ </a></li>
+<li><a href="#"> ADMISSIONS </a></li>
+<li><a href="#"> TUITION </a></li>
+<li><a href="#"> CURRICULUM </a></li>
+<li><a href="#"> UPCOMING EVENTS </a></li>
+<li><a href="#"> CONTACT </a></li>
+
+</ul><p>Copyright SSS TECHNOLOGIES © 2017. All Rights Reserved</p></center></div>
+
+</div>
+</footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+<!--End Wrapped-->
+  <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+</body>
+</html>

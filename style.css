@@ -1,0 +1,121 @@
+ *{padding: 0px;margin: 0px;box-sizing: border-box;}
+  body{font-family: 'Poppins', sans-serif;color:#8f8f8f;}
+.wrapped{content: '';
+    height: 4px;
+    width: 100%;
+    display: block;
+    background: url(images/rainbowstripe.jpg) repeat-x;padding-top:10px;     letter-spacing: 0.25px;}
+    .info li{display: inline-block;padding:10px 24px;
+      font-size: 12px;}
+     .info li span i{padding:5px; }
+    .menu .info li{display: inline-block;padding:10px 6px;font-size: 16px;}
+    .menu{margin-left: 30px;}
+    .menu .info li span i{padding:5px; }
+        .info1 li{display: inline-block;padding:10px 10px;
+          float: right; }
+          .info4 li{display: inline-block;padding:10px 10px; }
+          .info4{margin-left: 45px;}
+          .social{margin: -30px 15px;}
+           .menu li{padding-left:10px; margin-top:30px;  }
+          .menu span{padding-left: 5px; }
+         
+          .header .row img{margin-left: 30px;}
+
+          .dropbtn {
+
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .classtime{height:250px;background-image: url(images/bg.jpg);background-size: cover; text-align: center;font-family: 'Rubik', sans-serif;
+ padding-top:6%;color:white;}
+ .classtime h1{font-size:60px;line-height:72px;}
+ .table tr td {
+    border-left: 2px solid #e8e8e8;
+    border-bottom: 2px solid #e8e8e8; 
+    text-align: left;
+    height: 100%;
+    background-color: #fff;}
+    .table p{font-size: 11px;}
+     .table p span{color:#bac9e1;}
+        .table #am{font-size: 14px;}
+         .table h6{font-size: 18px;color: #a5c359;}
+         .table thead{background:#febc19;color:white;text-align: center;}
+         .yoga{background-image: url(images/bg1.jpg);height:900px;}
+         .yoga .container ul{padding-top:50px;margin-left:30px;  }
+         .yoga .container ul li{padding-left:30px;cursor: pointer;color: #666;  }
+         .yoga .container ul li div{ border:1px solid #b9b9b9;;border-radius:80px;width:120px;text-align: center;   }
+         .slidelike{background-image: url(images/bg3.jpg);height:700px;background-attachment: fixed;background-position: center;
+background-size: cover;background-repeat: no-repeat;}
+.slidelike .sed{height: 450px;width: 330px;background-color: white;box-shadow: 0px 0px 10px black;border-radius:2px; }
+.slidelike .sed .row2{margin-top: 15px;text-align: center;margin-left: 10px;}
+
+.slidelike .row1 #col{margin-left:60px;}
+.slidelike h2{padding:3% 13%;color: white;font-family: Rubik, sans-serif;font-size: 36px;line-height: 40px; }
+.slidelike h3{color: #ef5922;font-size: 30px;}
+   .slidelike .sed h5{margin-left:15px;color: #a5c33b;padding-top:20px; }  
+      .slidelike .sed p{margin-left:15px;} 
+      footer{
+    display: block;
+    background: url(images/rainbowstripe.jpg) repeat-x;padding-top:4px;letter-spacing: 0.25px;
+}  
+#footer{background-image:url(images/bg4.jpg);height:410px;background-repeat: no-repeat;
+background-size: cover;background-attachment: fixed;} 
+footer #a1{color: #ef5922;font-family:Rubik, sans-serif;font-size: 24px;line-height: 30px;padding-left:30px;}
+footer span{color: #ef5922;font-family:Linearicons;font-size:36px;line-height: 30px;}
+
+footer p{margin-left:65px;color:#858585;font-size: 14px;}
+footer #a2{margin-left:55px;color:#858585;font-size: 14px;}
+footer a{color:#858585;}
+.innerfooter ul li{display: inline-block;padding: 10px;  }
+.innerfooter a{color: #a5c359;}
+.innerfooter ul{margin-top: 50px;}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#febc19;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius:50%;box-shadow: 0px 0px 10px black;
+
+}
+
+#myBtn:hover {
+  background-color:red;
+}
